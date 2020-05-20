@@ -2,7 +2,7 @@
 
 ### introdução
 
-Meu projeto de teste de contrle de versão replit e github;
+Meu projeto de teste de controle de versão replit e github;
 
 ### projeto
 
