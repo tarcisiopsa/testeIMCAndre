@@ -4,25 +4,29 @@ class Teste {
 
       Aluno a = new Aluno("Dolores");
       Aluno b = new Aluno("Belmiro Silva");
-     // Avaliacao m1 = Avaliacao(90,2);
+      
+      Avaliacao a1 = new Avaliacao(90,2);
+      Avaliacao a2 = new Avaliacao(70,1);
 
+      a.avaliacao = a1;
+      b.avaliacao = a2;
 
-
-    //double indice = m1.indice();
-    //String situacao = m1.classificacao(indice);
 
     //Relatorio saida
     System.out.println("Listagem de alunos:");
-    System.out.println(a.getNome());
-    System.out.println(b.getNome());
-
-    //System.out.println("Indice = " + indice);
-    //System.out.println("Situacao = " + situacao);
-
+    mostraAluno(a);
+    mostraAluno(b);
 
 
 
   }
 
+    public void mostraAluno(Aluno a){
+      
+    System.out.println("\n" + a.getNome());
+    System.out.println("Indice = " + a.avaliacao.indice());
+    System.out.println("Categoria = " + a.avaliacao.classificacao());
+
+    }
 
 }
