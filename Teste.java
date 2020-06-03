@@ -2,8 +2,8 @@ class Teste {
 
   public void executar() {
 
-      Aluno a = Aluno("Dolores");
-      Aluno b = Aluno("Belmiro Silva");
+      Aluno a = new Aluno("Dolores");
+      Aluno b = new Aluno("Belmiro Silva");
      // Avaliacao m1 = Avaliacao(90,2);
 
 
